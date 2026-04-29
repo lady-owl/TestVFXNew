@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MM_RingLihgtInsideFire 1
+  m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ENABLEDISSOLVE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide:
+        m_Texture: {fileID: 2800000, guid: edb6a7a7211a85e48a1bc01157805f30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d74dbe826484fbc469f94393d5e227b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: 045e10f3b8014844a82cb1c057a16291, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MultiTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VONoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddTexSpeedX: 0
+    - _AddTexSpeedY: 0
+    - _AddTexUVMode: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaMulti: 0.3
+    - _AngleFadeStr: 1
+    - _AnglefadeOn: 0
+    - _AnglefadePower: 1
+    - _CausticsColor1Move: 1
+    - _CausticsColor2Move: 0.1721536
+    - _CausticsColor3Move: 0
+    - _CausticsOn: 0
+    - _ColorStrength: 0.5
+    - _CullMode: 0
+    - _CustomON: 0
+    - _CustomOption: 0
+    - _DisEdgeSoft: 0.6017354
+    - _DisHard: 0.314
+    - _DisSpeedX: 0
+    - _DisSpeedY: -0.36
+    - _DisTexUVMode: 0
+    - _DissolveAmount: 0.543
+    - _DstMode: 10
+    - _EnableAddTex: 0
+    - _EnableDissolve: 1
+    - _EnableMaskTex: 0
+    - _EnableMaskUV2: 0
+    - _EnableMixfresnel: 0
+    - _EnableNoise: 0
+    - _EnableNoiseUV2: 0
+    - _EnableVO: 0
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: -0.84
+    - _MaintexUVMode: 0
+    - _MultiTexUVMode: 0
+    - _MutiIntensity: 1
+    - _MutiTexSpeedX: 0
+    - _MutiTexSpeedY: 0
+    - _MyVOCustomStr: 2
+    - _MyVOCustomTO: 3
+    - _NoiseStrength: 0
+    - _NoiseTexSpeedX: 0
+    - _NoiseTexSpeedY: 0
+    - _NoiseToCaustics: 0
+    - _NoiseToCaustics2: 0
+    - _NoiseToCaustics3: 0
+    - _NoiseToDis: 0
+    - _NoiseToMain: 1
+    - _NoiseToMuti: 0
+    - _NoiseUVMode: 0
+    - _NoisetoAdd: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReversalFade: 0
+    - _ReverseSoftParticle: 0
+    - _SingleVector: 0
+    - _SoftParticle: 0.06
+    - _SrcMode: 5
+    - _SwitchAddChannelA: 0
+    - _SwitchMask: 0
+    - _UseAlpha: 1
+    - _UseBlue: 0
+    - _UseGreen: 0
+    - _UseNormal: 0
+    - _UseRed: 0
+    - _VOMaskSpeedX: 0
+    - _VOMaskSpeedY: 0
+    - _VONoiseSpeedX: 0
+    - _VONoiseSpeedY: 0
+    - _VOVectorMask: 0
+    - _VibrantStr: 1
+    - _ZTestMode: 4
+    - _grayToAlpha: 0
+    m_Colors:
+    - _AddTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
+    - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
+    - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
+    - _DisEdgeColor: {r: 0.4813298, g: 0.107466675, b: 0.31945097, a: 1}
+    - _DisTO: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 33.896755, g: 13.111009, b: 24.751036, a: 1}
+    - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MultiColor: {r: 2.1880286, g: 0.297373, b: 0, a: 1}
+    - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _Tilling: {r: 3.35, g: 3.35, b: 0, a: 0}
+    - _VOMaskTO: {r: 1, g: 1, b: 0, a: 0}
+    - _VONoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _VONormalStr: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &5602342131093303023
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

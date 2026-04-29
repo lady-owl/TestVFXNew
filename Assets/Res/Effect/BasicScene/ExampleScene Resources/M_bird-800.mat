@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_bird-800
+  m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CUSTOMON_ON
+  - _ENABLEMASKUV2_ON
+  - _ENABLENOISEUV2_ON
+  - _ENABLETIME_ON
+  - _ENABLEVAT_ON
+  - _ENABLEVO_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 077acee081fde354087e19de0608a385, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MultiTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MutiTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VATNoise:
+        m_Texture: {fileID: 2800000, guid: 741ebc48a48841c4889e5c352137f394, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMask:
+        m_Texture: {fileID: 2800000, guid: 5d59356cfbb89cf4fb83e41282ae31bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VONoise:
+        m_Texture: {fileID: 2800000, guid: b689cf26285fdf049bbc52a347404d8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VatMask:
+        m_Texture: {fileID: 2800000, guid: 52eb277adfad50a45aa20c2e6c0e059e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddTexSpeedX: 0
+    - _AddTexSpeedY: 0
+    - _AddTexUVMode: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaMulti: 0.3
+    - _AlphaMuti: 0.3
+    - _AngleFadeStr: 1
+    - _AnglefadeOn: 0
+    - _AnglefadePower: 1
+    - _CausticsColor1Move: 0.14779
+    - _CausticsColor2Move: 0.1721536
+    - _CausticsColor3Move: 0
+    - _CausticsOn: 0
+    - _ColorStrength: 1
+    - _CullMode: 2
+    - _CustomON: 1
+    - _CustomOption: 1
+    - _DisEdgeSoft: 0.6017354
+    - _DisHard: 0.3
+    - _DisSpeedX: 0
+    - _DisSpeedY: 0
+    - _DisTexUVMode: 0
+    - _DissolveAmount: -0.5
+    - _DstMode: 10
+    - _EnableAddTex: 0
+    - _EnableDissolve: 0
+    - _EnableMaskTex: 0
+    - _EnableMaskUV2: 1
+    - _EnableNoise: 0
+    - _EnableNoiseUV2: 1
+    - _EnableTime: 1
+    - _EnableVO: 1
+    - _EnableVat: 1
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: 0
+    - _MaintexUVMode: 0
+    - _MultiTexUVMode: 0
+    - _MutiIntensity: 1
+    - _MutiTexSpeedX: 0
+    - _MutiTexSpeedY: 0
+    - _MutiTexUVMode: 0
+    - _MyVOCustomStr: 0
+    - _MyVOCustomTO: 3
+    - _NoiseStrength: 0
+    - _NoiseTexSpeedX: 0
+    - _NoiseTexSpeedY: 0
+    - _NoiseToCaustics: 0
+    - _NoiseToCaustics2: 0
+    - _NoiseToCaustics3: 0
+    - _NoiseToDis: 0
+    - _NoiseToMain: 1
+    - _NoiseToMuti: 0
+    - _NoiseUVMode: 0
+    - _NoisetoAdd: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReversalFade: 0
+    - _SingleVector: 0
+    - _SoftParticle: 1
+    - _SrcMode: 5
+    - _SwitchAddChannelA: 0
+    - _SwitchChannelA: 0
+    - _SwitchMask: 0
+    - _TimeScale: 5
+    - _UseNormal: 0
+    - _VATVectorMask: 1
+    - _VOMaskSpeedX: 0
+    - _VOMaskSpeedY: 0
+    - _VONoiseSpeedX: 0
+    - _VONoiseSpeedY: 0
+    - _VOVectorMask: 1
+    - _VibrantStr: 0.07
+    - _ZTestMode: 4
+    - _grayToAlpha: 0
+    m_Colors:
+    - _AddTexColor: {r: 0, g: 0, b: 0, a: 1}
+    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _CausticsColor1: {r: 0.5471698, g: 0.1109826, b: 0.4361404, a: 0}
+    - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
+    - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
+    - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DisTO: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 8, g: 8, b: 8, a: 1}
+    - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MultiColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MutiColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MutiTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _VATMaskTO: {r: 3, g: 1, b: 0.32, a: 0}
+    - _VATNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _VATNoiseTO: {r: 4, g: 1, b: 2.59, a: 0}
+    - _VOMaskTO: {r: 2, g: 0.36, b: 0, a: 0}
+    - _VONoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _VONoiseTO: {r: 2, g: 0.2, b: 0, a: 0}
+    - _VONormalStr: {r: 0, g: 0, b: 0, a: 0}
+    - _VatMaskSpeed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

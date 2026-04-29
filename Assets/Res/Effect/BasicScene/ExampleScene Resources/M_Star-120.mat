@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Star-120
+  m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _B_EDGECOLOR_ON
+  - _ENUM_MAINTEXTYPE_TEXTURE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisappearTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 692d6c126ef87e54eacb54c5b097229e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MultiTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VONoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WarpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - UNITY_UI_ALPHACLIP: 0
+    - UNITY_UI_ALPHACLIP2: 0
+    - UNITY_UI_CLIP_RECT2: 0
+    - _AddTexSpeedX: 0
+    - _AddTexSpeedY: 0
+    - _AddTexUVMode: 0
+    - _AddTexUvSet: 0
+    - _AddTexWarp: 0
+    - _AlphaCutoff: 0.001
+    - _AlphaExp: 1
+    - _AlphaMulti: 0.3
+    - _AngleFadeStr: 1
+    - _AnglefadeOn: 0
+    - _AnglefadePower: 1
+    - _BAutoInitialized: 1
+    - _BCtrlByCustomData: 0
+    - _BCtrlByVertexAlpha: 1
+    - _BMultiTexToAlpha: 0
+    - _BRevertFresnel: 0
+    - _BViewSpaceUvInParticle: 0
+    - _B_ADDTEX: 0
+    - _B_CUSTOMDATA: 0
+    - _B_DISAPPEARTEX: 0
+    - _B_DISTANCECTRLCOLOR: 0
+    - _B_EDGECOLOR: 1
+    - _B_FADEANGLE: 0
+    - _B_GRADIENTREMAP: 0
+    - _B_MULTITEX: 0
+    - _B_SOFTPARTICLE: 0
+    - _B_USEPOSTFILTER: 0
+    - _B_VERTEXOFFSET: 0
+    - _B_WARPTEX: 0
+    - _BlendOp: 0
+    - _BrightPosition: 1
+    - _BrightSharp: 1
+    - _CausticsColor1Move: 1
+    - _CausticsColor2Move: 0.1721536
+    - _CausticsColor3Move: 0
+    - _CausticsOn: 0
+    - _Clip: 1
+    - _ColorExp: 1
+    - _ColorStrength: 0.5
+    - _ContactAlphaAdd: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _CustomON: 0
+    - _CustomOption: 0
+    - _DarkPosition: 0
+    - _DisEdgeSoft: 0.6017354
+    - _DisHard: 0.3
+    - _DisSpeedX: 0
+    - _DisSpeedY: 0
+    - _DisTexUVMode: 0
+    - _DisappearTexUvSet: 0
+    - _DisappearTexWarp: 0
+    - _DissolveAmount: 0
+    - _DstBlend: 10
+    - _DstMode: 10
+    - _ENUM_CUSTOMUV1: -1
+    - _ENUM_CUSTOMUV2: -1
+    - _ENUM_FRESNEL: -1
+    - _ENUM_MainTexType: 1
+    - _ENUM_UV2: -1
+    - _EdgeAlphaEnhance: 0
+    - _EdgeBias: 0
+    - _EdgeColorSharp: 3.34
+    - _EdgeIgnoreMainTex: -0.21
+    - _EdgeSharp: 1
+    - _EnableAddTex: 0
+    - _EnableDissolve: 0
+    - _EnableMaskTex: 0
+    - _EnableMaskUV2: 0
+    - _EnableNoise: 0
+    - _EnableNoiseUV2: 0
+    - _EnableVO: 0
+    - _FadeAlphaMulti: 1
+    - _FadeAngleExp: 2
+    - _FadeDistance: 0.2
+    - _FarDistance: 1
+    - _FinalAlphaMulti: 1
+    - _FinalColorMulti: 1
+    - _FresnelBias: 0
+    - _FresnelExp: 1
+    - _FresnelFinalCtrl: 1
+    - _FresnelMulti: 1
+    - _FresnelWarp: 0
+    - _HasTips: 0
+    - _IgnoreVertical: 0
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: 0
+    - _MainTexUvSet: 0
+    - _MainTexWarp: 1
+    - _MaintexUVMode: 0
+    - _MidPosition: 0.5
+    - _MidSharp: 1
+    - _MultiTexAlphaCtrl: 1
+    - _MultiTexFinalCtrl: 1
+    - _MultiTexUVMode: 0
+    - _MultiTexUvSet: 0
+    - _MultiTexWarp: 0
+    - _MutiIntensity: 1
+    - _MutiTexSpeedX: 0
+    - _MutiTexSpeedY: 0
+    - _MyVOCustomStr: 2
+    - _MyVOCustomTO: 3
+    - _NearDistance: 0.05
+    - _NoiseStrength: 0
+    - _NoiseTexSpeedX: 0
+    - _NoiseTexSpeedY: 0
+    - _NoiseToCaustics: 0
+    - _NoiseToCaustics2: 0
+    - _NoiseToCaustics3: 0
+    - _NoiseToDis: 0
+    - _NoiseToMain: 1
+    - _NoiseToMuti: 0
+    - _NoiseUVMode: 0
+    - _NoisetoAdd: 0
+    - _NormalOffsetStrength: 1
+    - _OffsetBias: 0
+    - _OffsetStrength: 1
+    - _OffsetStrengthByCustomData: 0
+    - _OffsetTexUvSet: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReversalFade: 0
+    - _RevertFadeAngle: 0
+    - _RevertSoftEdge: 0
+    - _RevertSoftParticle: 0
+    - _SelectedFresnelModeBeforeClose: 2
+    - _SelectedUv2ModeBeforeClose: 1
+    - _SingleVector: 0
+    - _SoftParticle: 1
+    - _SrcBlend: 5
+    - _SrcMode: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFailOp: 0
+    - _StencilPassOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _StencilZFailOp: 0
+    - _SwitchAddChannelA: 0
+    - _SwitchMask: 0
+    - _UseFilter: 0
+    - _UseNormal: 0
+    - _VOMaskSpeedX: 0
+    - _VOMaskSpeedY: 0
+    - _VONoiseSpeedX: 0
+    - _VONoiseSpeedY: 0
+    - _VOVectorMask: 0
+    - _VibrantStr: 1
+    - _WarpDampMin: 0.1
+    - _WarpDampRange: -1
+    - _WarpStrength: 0.2
+    - _WarpTexUvSet: 0
+    - _ZTest: 4
+    - _ZTestMode: 4
+    - _ZWrite: 0
+    - _grayToAlpha: 0
+    m_Colors:
+    - _AddColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AddTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AddTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _AddTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _AddTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _BrightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
+    - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
+    - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
+    - _ClipCtrlCustomPicker: {r: 0, g: 0, b: 2, a: 0}
+    - _Color: {r: 1.8443027, g: 0.97525954, b: 0.97525954, a: 1}
+    - _CustomPickersShow: {r: 0, g: -1, b: -1, a: -1}
+    - _CustomPickersShow2: {r: -1, g: -1, b: -1, a: -1}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
+    - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DisTO: {r: 1, g: 1, b: 0, a: 0}
+    - _DisappearTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _DisappearTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _DisappearTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FarColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _HSVOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LocalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _MidColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _MultiColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MultiTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MultiTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MultiTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _MultiTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _NearColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetStrengthCustom1Picker: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetStrengthCustom2Picker: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetTexChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _OffsetTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetVertexChannelMask: {r: 0, g: 0, b: 0, a: 0}
+    - _RandomSeedCustomPicker: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftEdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _VOMaskTO: {r: 1, g: 1, b: 0, a: 0}
+    - _VONoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _VONormalStr: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexImpactColorMask: {r: 1, g: 1, b: 1, a: 1}
+    - _WarpStrengthCustomPicker: {r: 0, g: 0, b: 1, a: 0}
+    - _WarpTexPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _WarpTexUCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+    - _WarpTexVCustomPicker: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
