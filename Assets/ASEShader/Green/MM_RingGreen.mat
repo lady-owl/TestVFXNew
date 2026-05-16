@@ -50,7 +50,7 @@ Material:
     - _UseGreen: 0
     - _UseRed: 0
     m_Colors:
-    - _MainColor: {r: 0.0050904793, g: 0.23125495, b: 0.08934784, a: 1}
+    - _MainColor: {r: 0.015431447, g: 0.7010339, b: 0.270852, a: 1}
     - _OffsetSpeed: {r: 0.4, g: 0, b: 0, a: 0}
     - _Tilling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []

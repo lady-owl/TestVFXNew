@@ -88,11 +88,11 @@ Material:
     - _CustomON: 0
     - _CustomOption: 0
     - _DisEdgeSoft: 0.6017354
-    - _DisHard: 0.314
+    - _DisHard: 0.262
     - _DisSpeedX: 0
     - _DisSpeedY: -0.36
     - _DisTexUVMode: 0
-    - _DissolveAmount: 0.543
+    - _DissolveAmount: 0.525
     - _DstMode: 10
     - _EnableAddTex: 0
     - _EnableDissolve: 1
@@ -151,11 +151,11 @@ Material:
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
     - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
     - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
-    - _DisEdgeColor: {r: 0.6239228, g: 7.9066987, b: 0.45535958, a: 1}
+    - _DisEdgeColor: {r: 0, g: 0.98432297, b: 55.65133, a: 1}
     - _DisTO: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 236.07077, g: 0.79756033, b: 0, a: 1}
+    - _MainColor: {r: 14.249107, g: 118.035385, b: 0, a: 1}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _MultiColor: {r: 2.1880286, g: 0.297373, b: 0, a: 1}
     - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}

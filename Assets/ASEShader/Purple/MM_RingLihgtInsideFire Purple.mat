@@ -155,7 +155,7 @@ Material:
     - _DisTO: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1.5584463, g: 48.043594, b: 55.065437, a: 1}
+    - _MainColor: {r: 9.785252, g: 105.17886, b: 311.49716, a: 1}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _MultiColor: {r: 2.1880286, g: 0.297373, b: 0, a: 1}
     - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}

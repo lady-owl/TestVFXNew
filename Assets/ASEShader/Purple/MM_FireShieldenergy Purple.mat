@@ -165,10 +165,10 @@ Material:
     - _UseRed3: 0
     - _VOMaskSpeedX: 0
     - _VOMaskSpeedY: 0
-    - _VONoiseSpeedX: 0.12
-    - _VONoiseSpeedY: 0
+    - _VONoiseSpeedX: 0.08
+    - _VONoiseSpeedY: 0.05
     - _VOVectorMask: 0
-    - _VibrantStr: 0.16
+    - _VibrantStr: 0.06
     - _ZTestMode: 4
     - _grayToAlpha: 0
     m_Colors:

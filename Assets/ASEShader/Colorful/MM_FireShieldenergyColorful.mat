@@ -168,7 +168,7 @@ Material:
     - _VONoiseSpeedX: 0.12
     - _VONoiseSpeedY: 0
     - _VOVectorMask: 0
-    - _VibrantStr: 0.07
+    - _VibrantStr: 0.04
     - _ZTestMode: 4
     - _grayToAlpha: 0
     m_Colors:
@@ -182,7 +182,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 6.422235, g: 3.0701632, b: 0, a: 1}
     - _Fresnel_Color: {r: 14.738655, g: 3.3133504, b: 0, a: 1}
-    - _MainColor: {r: 0.7421588, g: 4.565895, b: 0.100506365, a: 1}
+    - _MainColor: {r: 0, g: 0.81889516, b: 11.56354, a: 1}
     - _MainColor2: {r: 3.403516, g: 0.1643017, b: 0, a: 0}
     - _MainColor3: {r: 0, g: 3.403516, b: 1.698373, a: 0}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}

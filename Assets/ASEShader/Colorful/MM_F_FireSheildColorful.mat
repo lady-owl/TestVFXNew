@@ -86,9 +86,9 @@ Material:
     - _UseRed3: 0
     m_Colors:
     - _Fresnel_Color: {r: 0.13158518, g: 0, b: 7.323429, a: 1}
-    - _MainColor: {r: 1.3784666, g: 18.164822, b: 0, a: 1}
-    - _MainColor2: {r: 14.754423, g: 2.978317, b: 0.23174444, a: 1}
-    - _MainColor3: {r: 0.36566913, g: 0.27759355, b: 5.8849993, a: 1}
+    - _MainColor: {r: 0.15196122, g: 22.363522, b: 0, a: 1}
+    - _MainColor2: {r: 1.3041189, g: 0.020483507, b: 0.15658002, a: 1}
+    - _MainColor3: {r: 0, g: 0.27405867, b: 10.140132, a: 1}
     - _OffsetSpeed: {r: 0.5, g: 0, b: 0, a: 0}
     - _OffsetSpeed2: {r: 0.3, g: 0, b: 0, a: 0}
     - _OffsetSpeed3: {r: 0.1, g: 0, b: 0, a: 0}
