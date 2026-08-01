@@ -7,18 +7,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_MagicBall
+  m_Name: M_Rose
   m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _ENABLEDISSOLVE_ON
-  - _ENABLEMASKTEX_ON
-  - _ENABLENOISE_ON
+  - _ALPHABLEND_ON
   - _GLOSSYREFLECTIONS_OFF
   - _GRAYTOALPHA_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -62,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 583bacc0426bbed4daa4d53a5801058a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9fcafdc828370bd4fa0fb24379f86cf0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -121,54 +119,66 @@ Material:
     - _AddTexUVMode: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _AlphaMulti: 0.5
+    - _AlphaMulti: 0.23
     - _AlphaToMask: 0
     - _AngleFadeStr: 1
     - _AnglefadeOn: 0
     - _AnglefadePower: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _CausticsColor1Move: 1
     - _CausticsColor2Move: 0.1721536
     - _CausticsColor3Move: 0
     - _CausticsOn: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorMode: 0
     - _ColorStrength: 0.5
     - _Cull: 2
-    - _CullMode: 2
+    - _CullMode: 0
     - _CustomON: 0
     - _CustomOption: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DisEdgeSoft: 0.6017354
-    - _DisHard: 1
+    - _DisHard: 0
     - _DisSpeedX: 0
     - _DisSpeedY: 0
     - _DisTexUVMode: 0
-    - _DissolveAmount: 0.374
-    - _DstBlend: 0
+    - _DissolveAmount: 0
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 1
     - _DstBlendAlpha: 0
-    - _DstMode: 10
+    - _DstMode: 7
+    - _EmissionEnabled: 0
     - _EnableAddTex: 0
-    - _EnableDissolve: 1
-    - _EnableMaskTex: 1
+    - _EnableDissolve: 0
+    - _EnableMaskTex: 0
     - _EnableMaskUV2: 0
     - _EnableMixfresnel: 0
-    - _EnableNoise: 1
+    - _EnableNoise: 0
     - _EnableNoiseUV2: 0
     - _EnableVO: 0
     - _EnvironmentReflections: 1
+    - _FlipbookMode: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MainTexSpeedX: 1
-    - _MainTexSpeedY: 1
+    - _LightingEnabled: 0
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: 0
     - _MaintexUVMode: 0
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 4
     - _MultiTexUVMode: 0
     - _MutiIntensity: 1.31
     - _MutiTexSpeedX: 0
@@ -202,9 +212,12 @@ Material:
     - _SingleVector: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SoftParticle: 11.61
+    - _SoftParticle: -5.11
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _SrcMode: 5
     - _Surface: 0
@@ -220,25 +233,28 @@ Material:
     - _VibrantStr: 1
     - _WorkflowMode: 1
     - _ZTestMode: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _grayToAlpha: 1
     m_Colors:
     - _AddTexColor: {r: 1, g: 1, b: 1, a: 1}
     - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
     - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
     - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 2.9960785, g: 2.0504391, b: 0.17254901, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
     - _DisTO: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 25.35849, g: 0.6638348, b: 0, a: 1}
+    - _MainColor: {r: 95.87451, g: 23.214888, b: 23.611938, a: 1}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _MultiColor: {r: 1.0592737, g: 0.3830507, b: 0, a: 1}
     - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _VOMaskTO: {r: 1, g: 1, b: 0, a: 0}
     - _VONoiseTO: {r: 1, g: 1, b: 0, a: 0}

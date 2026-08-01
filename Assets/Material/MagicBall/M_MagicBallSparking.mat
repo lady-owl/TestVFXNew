@@ -157,6 +157,7 @@ Material:
     - _EnableDissolve: 1
     - _EnableMaskTex: 1
     - _EnableMaskUV2: 0
+    - _EnableMixfresnel: 0
     - _EnableNoise: 1
     - _EnableNoiseUV2: 0
     - _EnableVO: 0
@@ -198,6 +199,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _ReversalFade: 0
+    - _ReverseSoftParticle: 0
     - _SingleVector: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -233,7 +235,7 @@ Material:
     - _DisTO: {r: 2, g: 0.6, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 13.766359, g: 1.8531499, b: 0.50452644, a: 1}
+    - _MainColor: {r: 89.454094, g: 3.7467701, b: 5.11055, a: 1}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _MultiColor: {r: 220.26176, g: 72.43929, b: 0, a: 1}
     - _MultiTexTO: {r: 1.54, g: 1.54, b: 0, a: 0}

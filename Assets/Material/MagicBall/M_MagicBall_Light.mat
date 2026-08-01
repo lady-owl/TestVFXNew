@@ -244,7 +244,7 @@ Material:
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
     - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
     - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
-    - _Color: {r: 0.9883373, g: 0.9883373, b: 0.9883373, a: 1}
+    - _Color: {r: 0.9883372, g: 0.9883372, b: 0.9883372, a: 0}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
     - _DisTO: {r: 1, g: 1, b: 0, a: 0}
