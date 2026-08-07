@@ -7,13 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_MagicCard_Trail
+  m_Name: M_MagicCard_TrailThornMagic
   m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHABLEND_ON
+  - _CUSTOMON_ON
   - _ENABLEADDTEX_ON
   - _ENABLEDISSOLVE_ON
   - _ENABLENOISE_ON
@@ -54,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide:
-        m_Texture: {fileID: 2800000, guid: 3b09b431c9a5a204fbd80d5e6e33a1b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: e190a4ecb0723644b9b195cd84524bc2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -62,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 328f1765094174b4a8130d45b1ef38ba, type: 3}
+        m_Texture: {fileID: 2800000, guid: 302b625ae18cd784f812ca2c32fddf31, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -74,7 +75,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 7525beef1efcda946a8dfbbfb4aa8d64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2cbc2228afdd27f408a7f11f4e7a9e61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTexture:
@@ -116,12 +117,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _AddTexSpeedX: -0.66
-    - _AddTexSpeedY: 0
+    - _AddTexSpeedX: 0
+    - _AddTexSpeedY: 0.37
     - _AddTexUVMode: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _AlphaMulti: 0.26
+    - _AlphaMulti: 0.45
     - _AlphaToMask: 0
     - _AngleFadeStr: 1
     - _AnglefadeOn: 0
@@ -143,7 +144,7 @@ Material:
     - _ColorStrength: 0.5
     - _Cull: 2
     - _CullMode: 0
-    - _CustomON: 0
+    - _CustomON: 1
     - _CustomOption: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -153,14 +154,14 @@ Material:
     - _DisSpeedX: 0
     - _DisSpeedY: 0
     - _DisTexUVMode: 0
-    - _DissolveAmount: 0.519
+    - _DissolveAmount: 0.685
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
     - _DstBlend: 10
     - _DstBlendAlpha: 0
-    - _DstMode: 10
+    - _DstMode: 7
     - _EmissionEnabled: 0
     - _EnableAddTex: 1
     - _EnableDissolve: 1
@@ -176,8 +177,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _LightingEnabled: 0
-    - _MainTexSpeedX: -1
-    - _MainTexSpeedY: 0
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: 0.39
     - _MaintexUVMode: 0
     - _Metallic: 0
     - _Mode: 2
@@ -214,7 +215,7 @@ Material:
     - _SingleVector: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SoftParticle: 6.3
+    - _SoftParticle: 1.31
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
@@ -234,12 +235,12 @@ Material:
     - _VOVectorMask: 0
     - _VibrantStr: 1
     - _WorkflowMode: 1
-    - _ZTestMode: 4
+    - _ZTestMode: 6
     - _ZWrite: 0
     - _grayToAlpha: 0
     m_Colors:
-    - _AddTexColor: {r: 60.779873, g: 33.8303, b: 34.01877, a: 1}
-    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _AddTexColor: {r: 4.541206, g: 1.1281606, b: 1.159473, a: 1}
+    - _AddTexTO: {r: 1, g: 5.77, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
@@ -248,12 +249,12 @@ Material:
     - _Color: {r: 2.4622889, g: 1.4761302, b: 1.0762833, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DisTO: {r: -0.75, g: 1, b: -0.12, a: 0}
+    - _DisTO: {r: 1, g: 1, b: -0.12, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 33.767036, g: 2.0175207, b: 7.1705914, a: 1}
-    - _MainTexTO: {r: 2.88, g: 1, b: 0, a: 0}
-    - _MultiColor: {r: 48.502926, g: 48.3504, b: 48.359375, a: 1}
+    - _MainColor: {r: 1.8238993, g: 0.07456159, b: 0.07456159, a: 1}
+    - _MainTexTO: {r: 1, g: 7.54, b: 0, a: 0}
+    - _MultiColor: {r: 1, g: 0, b: 0, a: 1}
     - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}

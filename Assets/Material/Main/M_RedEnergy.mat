@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_RedEnergy
+  m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ANGLEFADEON_ON
+  - _ENABLEADDTEX_ON
+  - _ENABLEDISSOLVE_ON
+  - _ENABLEMASKUV2_ON
+  - _ENABLEMIXFRESNEL_ON
+  - _ENABLENOISE_ON
+  - _ENABLEVO_ON
+  - _REVERSALFADE_ON
+  - _REVERSESOFTPARTICLE_ON
+  - _SWITCHMASK_ON
+  - _USENORMAL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 2800000, guid: 5ad7142f80880f448b778d0ffa993f4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveGuide:
+        m_Texture: {fileID: 2800000, guid: 5d605e71e3c26784d8f32657112c0456, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8445e1b0fda6d3f47ad96d3f8a94d4c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: 69d72f3977694594bb7e23e76a9a55b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText2:
+        m_Texture: {fileID: 2800000, guid: 69d72f3977694594bb7e23e76a9a55b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText3:
+        m_Texture: {fileID: 2800000, guid: 69d72f3977694594bb7e23e76a9a55b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MultiTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 2cbc2228afdd27f408a7f11f4e7a9e61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMask:
+        m_Texture: {fileID: 2800000, guid: f113cceb2b5c70d47a26f507b254733c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VONoise:
+        m_Texture: {fileID: 2800000, guid: 583bacc0426bbed4daa4d53a5801058a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddTexSpeedX: 0
+    - _AddTexSpeedY: -0.16
+    - _AddTexUVMode: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaMulti: 0
+    - _AngleFadeStr: -0.11
+    - _AnglefadeOn: 1
+    - _AnglefadePower: 1.11
+    - _CausticsColor1Move: 1
+    - _CausticsColor2Move: 0.1721536
+    - _CausticsColor3Move: 0
+    - _CausticsOn: 0
+    - _ColorStrength: 0.5
+    - _ConlourOpacity: 0.67
+    - _ConlourOpacityPower: 0.2
+    - _ConlourWeight: 0.22
+    - _CullMode: 2
+    - _CustomON: 0
+    - _CustomOption: 0
+    - _Depth_Offset: 0.61
+    - _DisEdgeSoft: 0.6017354
+    - _DisHard: 0.734
+    - _DisSpeedX: 0
+    - _DisSpeedY: 0
+    - _DisTexUVMode: 0
+    - _DissolveAmount: 0.562
+    - _DistortStrength: 0.1
+    - _DstMode: 10
+    - _EnableAddTex: 1
+    - _EnableDissolve: 1
+    - _EnableMaskTex: 0
+    - _EnableMaskUV2: 1
+    - _EnableMixfresnel: 1
+    - _EnableNoise: 1
+    - _EnableNoiseUV2: 0
+    - _EnableVO: 1
+    - _Fresnel_Power: 3.65
+    - _MainTexSpeedX: 0
+    - _MainTexSpeedY: -0.51
+    - _MaintexUVMode: 0
+    - _MultiTexUVMode: 0
+    - _MutiIntensity: 1
+    - _MutiTexSpeedX: 0
+    - _MutiTexSpeedY: 0
+    - _MyVOCustomStr: 2
+    - _MyVOCustomTO: 3
+    - _NoiseStrength: 0.01
+    - _NoiseTexSpeedX: 0
+    - _NoiseTexSpeedY: -0.25
+    - _NoiseToCaustics: 0
+    - _NoiseToCaustics2: 0
+    - _NoiseToCaustics3: 0
+    - _NoiseToDis: 0
+    - _NoiseToMain: 1
+    - _NoiseToMuti: 0
+    - _NoiseUVMode: 0
+    - _NoisetoAdd: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReversalFade: 1
+    - _ReverseSoftParticle: 1
+    - _SingleVector: 0
+    - _SoftParticle: 0.17
+    - _SrcMode: 5
+    - _SwitchAddChannelA: 0
+    - _SwitchMask: 1
+    - _UseAlpha: 0
+    - _UseAlpha2: 0
+    - _UseAlpha3: 0
+    - _UseBlue: 0
+    - _UseBlue2: 0
+    - _UseBlue3: 0
+    - _UseGreen: 0
+    - _UseGreen2: 0
+    - _UseGreen3: 0
+    - _UseNormal: 1
+    - _UseRed: 1
+    - _UseRed2: 0
+    - _UseRed3: 0
+    - _VOMaskSpeedX: 0.11
+    - _VOMaskSpeedY: -0.06
+    - _VONoiseSpeedX: 0.16
+    - _VONoiseSpeedY: 0
+    - _VOVectorMask: 0
+    - _VibrantStr: 0.1
+    - _ZTestMode: 4
+    - _grayToAlpha: 0
+    m_Colors:
+    - _AddTexColor: {r: 4.305813, g: 1.0696824, b: 1.0696824, a: 1}
+    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
+    - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
+    - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
+    - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DisTO: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 6.4222345, g: 0.06429542, b: 0, a: 1}
+    - _Fresnel_Color: {r: 14.738655, g: 3.3133504, b: 0, a: 1}
+    - _MainColor: {r: 3.155178, g: 0.44601986, b: 0.54343265, a: 1}
+    - _MainColor2: {r: 3.403516, g: 0.1643017, b: 0, a: 0}
+    - _MainColor3: {r: 0, g: 3.403516, b: 1.698373, a: 0}
+    - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _MultiColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetSpeed: {r: 0.3, g: 0, b: 0, a: 0}
+    - _OffsetSpeed2: {r: 1, g: 0, b: 0, a: 0}
+    - _OffsetSpeed3: {r: 1, g: 0, b: 0, a: 0}
+    - _Tilling: {r: 2, g: 3, b: 0, a: 0}
+    - _Tilling2: {r: 1, g: 1, b: 0, a: 0}
+    - _Tilling3: {r: 1, g: 1, b: 0, a: 0}
+    - _VOMaskTO: {r: 2.82, g: 2, b: 0, a: 0}
+    - _VONoiseTO: {r: 0.03, g: 0.22, b: 0, a: 0}
+    - _VONormalStr: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &5602342131093303023
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

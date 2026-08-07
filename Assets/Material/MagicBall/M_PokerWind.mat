@@ -17,7 +17,6 @@ Material:
   - _ENABLEDISSOLVE_ON
   - _ENABLENOISE_ON
   - _GLOSSYREFLECTIONS_OFF
-  - _GRAYTOALPHA_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -202,7 +201,7 @@ Material:
     - _SingleVector: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SoftParticle: 5
+    - _SoftParticle: 1.54
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -221,9 +220,9 @@ Material:
     - _WorkflowMode: 1
     - _ZTestMode: 4
     - _ZWrite: 1
-    - _grayToAlpha: 1
+    - _grayToAlpha: 0
     m_Colors:
-    - _AddTexColor: {r: 23.793888, g: 8.754352, b: 8.754352, a: 1}
+    - _AddTexColor: {r: 14.928529, g: 6.1498017, b: 6.1498017, a: 1}
     - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
