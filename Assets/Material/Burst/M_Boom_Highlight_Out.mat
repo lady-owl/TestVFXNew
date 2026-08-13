@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8204130919665554518
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,33 +20,36 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_RoseTotal
+  m_Name: M_Boom_Highlight_Out
   m_Shader: {fileID: 4800000, guid: b860666cba7323c4f8a95f496c587787, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
-  - _ALPHABLEND_ON
-  - _ENABLEADDTEX_ON
+  - _COLORCOLOR_ON
+  - _CUSTOMON_ON
+  - _EMISSION
   - _ENABLEDISSOLVE_ON
-  - _GLOSSYREFLECTIONS_OFF
-  m_LightmapFlags: 0
+  - _FLIPBOOKBLENDING_OFF
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
-  - MOTIONVECTORS
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AddTex:
-        m_Texture: {fileID: 2800000, guid: 5ad7142f80880f448b778d0ffa993f4c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 910933e0f9be7f248ba045a167138086, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -53,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisolveGuide:
-        m_Texture: {fileID: 2800000, guid: 8445e1b0fda6d3f47ad96d3f8a94d4c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: cdd9abaa45b4dff4d8b6f8e77f1ccce8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -61,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5eac40d4efb9a1942adee5176a8bc7ea, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7d9c21489b904854b9c3398433a8ed74, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -69,15 +85,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MultiTex:
-        m_Texture: {fileID: 2800000, guid: df838a82e7b86ef41b8fcda50f339d58, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: df838a82e7b86ef41b8fcda50f339d58, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: 8a88a7c2903f414418737601a8e6bd9c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -120,7 +132,7 @@ Material:
     - _AddTexUVMode: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _AlphaMulti: 0.23
+    - _AlphaMulti: 0.02
     - _AlphaToMask: 0
     - _AngleFadeStr: 1
     - _AnglefadeOn: 0
@@ -138,9 +150,9 @@ Material:
     - _CausticsOn: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorMode: 0
+    - _ColorMode: 4
     - _ColorStrength: 0.5
-    - _Cull: 2
+    - _Cull: 0
     - _CullMode: 0
     - _CustomON: 1
     - _CustomOption: 0
@@ -148,20 +160,19 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DisEdgeSoft: 0
-    - _DisHard: 0.267
+    - _DisHard: 0.016
     - _DisSpeedX: 0
     - _DisSpeedY: 0
     - _DisTexUVMode: 0
-    - _DissolveAmount: 0.434
+    - _DissolveAmount: 0.118
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0
-    - _DstBlend: 1
-    - _DstBlendAlpha: 0
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
     - _DstMode: 10
-    - _EmissionEnabled: 0
-    - _EnableAddTex: 1
+    - _EnableAddTex: 0
     - _EnableDissolve: 1
     - _EnableMaskTex: 0
     - _EnableMaskUV2: 0
@@ -170,31 +181,25 @@ Material:
     - _EnableNoiseUV2: 0
     - _EnableVO: 0
     - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LightingEnabled: 0
     - _MainTexSpeedX: 0
     - _MainTexSpeedY: 0
     - _MaintexUVMode: 0
     - _Metallic: 0
-    - _Mode: 4
+    - _Mode: 0
     - _MultiTexUVMode: 0
-    - _MutiIntensity: 1.31
+    - _MutiIntensity: 1
     - _MutiTexSpeedX: 0
     - _MutiTexSpeedY: 0
     - _MyVOCustomStr: 2
     - _MyVOCustomTO: 3
-    - _Noise1Speed: 0.5
-    - _Noise2Scale: 2
-    - _Noise2Speed: 1
-    - _Noise3Speed: 1
-    - _NoiseIntensity: 5
-    - _NoiseScale: 5
-    - _NoiseStrength: 0.48
+    - _NoiseStrength: 0
     - _NoiseTexSpeedX: 0
-    - _NoiseTexSpeedY: 0.35
+    - _NoiseTexSpeedY: 0
     - _NoiseToCaustics: 0
     - _NoiseToCaustics2: 0
     - _NoiseToCaustics3: 0
@@ -202,7 +207,7 @@ Material:
     - _NoiseToMain: 1
     - _NoiseToMuti: 0
     - _NoiseUVMode: 0
-    - _NoisetoAdd: 1.36
+    - _NoisetoAdd: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: -1
@@ -210,10 +215,11 @@ Material:
     - _ReceiveShadows: 1
     - _ReversalFade: 0
     - _ReverseSoftParticle: 0
+    - _SampleGI: 0
     - _SingleVector: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SoftParticle: 0.98
+    - _SoftParticle: 0.3
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
@@ -221,10 +227,9 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _SrcMode: 5
-    - _Surface: 0
+    - _Surface: 1
     - _SwitchAddChannelA: 0
     - _SwitchMask: 0
-    - _UVSec: 0
     - _UseNormal: 0
     - _VOMaskSpeedX: 0
     - _VOMaskSpeedY: 0
@@ -233,45 +238,33 @@ Material:
     - _VOVectorMask: 0
     - _VibrantStr: 1
     - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 1
     - _ZTestMode: 4
     - _ZWrite: 0
     - _grayToAlpha: 0
     m_Colors:
-    - _AddTexColor: {r: 3.4213836, g: 0.5271936, b: 0.5271936, a: 1}
-    - _AddTexTO: {r: 2, g: 2, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AddTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AddTexTO: {r: 1, g: 1, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.62352943}
+    - _BaseColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _CausticsColor1: {r: 0.6603774, g: 0, b: 0.229601, a: 0}
     - _CausticsColor2: {r: 0.5460516, g: 0.5943396, b: 0.02523139, a: 0}
     - _CausticsColor3: {r: 0.01619794, g: 0.2923558, b: 0.490566, a: 0}
-    - _Color: {r: 2.9960785, g: 2.0504391, b: 0.17254901, a: 1}
-    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _DisEdgeColor: {r: 13.98742, g: 2.3312354, b: 2.3312354, a: 0}
-    - _DisTO: {r: -1, g: -1, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.62352943}
+    - _DisEdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DisTO: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 23.96863, g: 5.42361, b: 3.3917837, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 3.9999998, g: 0.7421381, b: 0.7421381, a: 1}
+    - _MainColor: {r: 9.734288, g: 1.0713828, b: 1.0713828, a: 1}
     - _MainTexTO: {r: 1, g: 1, b: 0, a: 0}
-    - _MultiColor: {r: 1.0592737, g: 0.3830507, b: 0, a: 1}
+    - _MultiColor: {r: 0, g: 0, b: 0, a: 1}
     - _MultiTexTO: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTO: {r: 1, g: 1, b: 0, a: 0}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _VOMaskTO: {r: 1, g: 1, b: 0, a: 0}
     - _VONoiseTO: {r: 1, g: 1, b: 0, a: 0}
     - _VONormalStr: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &5427926043385738712
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 9

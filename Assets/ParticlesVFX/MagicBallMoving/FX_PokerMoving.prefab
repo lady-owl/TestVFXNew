@@ -9789,7 +9789,7 @@ Transform:
   m_GameObject: {fileID: 1826017791377746199}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.422, y: 0, z: 0.014}
+  m_LocalPosition: {x: 0.535, y: 0, z: 0.014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10049,7 +10049,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.14
+      scalar: 0.22
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -10155,7 +10155,7 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.7
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -11131,7 +11131,7 @@ ParticleSystem:
         key0: {r: 1, g: 0.19182372, b: 0.19182372, a: 0}
         key1: {r: 1, g: 0.8018867, b: 0.8018867, a: 1}
         key2: {r: 1, g: 0.16666657, b: 0.4576525, a: 1}
-        key3: {r: 0.6165232, g: 0.19811308, b: 1, a: 0}
+        key3: {r: 0.6165232, g: 0.19811308, b: 1, a: 0.12156863}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
@@ -11146,16 +11146,16 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 12979
-        atime2: 48702
-        atime3: 65535
-        atime4: 0
+        atime2: 36494
+        atime3: 50886
+        atime4: 65535
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
         m_ColorSpace: 0
         m_NumColorKeys: 4
-        m_NumAlphaKeys: 4
+        m_NumAlphaKeys: 5
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -14940,7 +14940,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 16
+      scalar: 22
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -24664,7 +24664,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 21
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -29555,7 +29555,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 16
+      scalar: 22
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -34446,7 +34446,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 16
+      scalar: 22
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -72482,7 +72482,7 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 37394
+        atime0: 40992
         atime1: 65535
         atime2: 0
         atime3: 0
